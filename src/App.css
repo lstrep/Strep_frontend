@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.AreaContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+}
+
+.AreaSvg {
+	margin-bottom: 20px;
+}
+
+.estimatedValues {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.estimatedTemperature,
+.estimatedHumidity {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #000;
+	background-color: #f0f0f0;
+}
+
+.displayArea {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.sensor-data-container {
+	width: 100%;
+	max-height: 30vh;
+}
+.LiveArea {
+	display: flex;
+	justify-content: center;
+}
+.SensorData {
+	margin: auto;
+}
+
+.algorithmSelector select,
+.krigingOptionsSelector select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  background-color: #f0f0f0;
+  width: 200px; /* adjust this to get the desired width */
+  margin-bottom: 2px;
+}
